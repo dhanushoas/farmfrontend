@@ -2,7 +2,7 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: 'https://dhanushoas.github.io/farmfrontend/',
+  baseHref: '/farmfrontend/',
   locale: undefined,
   routes: [
   {
@@ -46,12 +46,12 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 5036, hash: 'f5e76e3491ba2c86d8814186f9960cf5f8dbf9eb234069a0ac68900b27099e27', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1152, hash: 'e7128771b28bed44b49a76dd7974c9cca7f4483f50ad59f5f920ebf4cf684152', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'settings/index.html': {size: 5265, hash: 'd209779e4b59a42e01653ddfd56113ec3f264f7e897e7121a17e81212df82fc3', text: () => import('./assets-chunks/settings_index_html.mjs').then(m => m.default)},
-    'signup/index.html': {size: 5380, hash: 'c43fd6aa733b010591e6b7051c790a86fb176240d05f29fbecd713ad56b3ccb0', text: () => import('./assets-chunks/signup_index_html.mjs').then(m => m.default)},
-    'signin/index.html': {size: 18621, hash: 'a8d19948d8587cdce4673e2a19a8e846c23697c0f3160eb0fea8eb7561459197', text: () => import('./assets-chunks/signin_index_html.mjs').then(m => m.default)},
-    'dashboard/index.html': {size: 5265, hash: '9d69fcf019eff46947a600662cb4a3d47018f9936927c855d5573ed67a7f9908', text: () => import('./assets-chunks/dashboard_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 5008, hash: 'e40bc63685bb2cebd3cee4e86cd67d18a64dc6fe213167c420782f0097ad2475', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1124, hash: 'f455553ca1b40a14395bc2a500bfa4dd1b9cb570b0f1ede74b8cbe1b8787079b', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'settings/index.html': {size: 5237, hash: 'd11bb567c7971bea57fb91e0a4140b2edccfbf2128dee4763db00c1ac3281d60', text: () => import('./assets-chunks/settings_index_html.mjs').then(m => m.default)},
+    'signup/index.html': {size: 5352, hash: '964f1364589032b1725e9712d2bba333c2bdc6f4935e94e20ce8e705b8d8e28e', text: () => import('./assets-chunks/signup_index_html.mjs').then(m => m.default)},
+    'signin/index.html': {size: 18593, hash: '78895e8ab51afa0fd20c283f6fb360dfcff4a963b15b7204efd5c945002ed235', text: () => import('./assets-chunks/signin_index_html.mjs').then(m => m.default)},
+    'dashboard/index.html': {size: 5237, hash: '6e6053cb9898127b706af3ee9dfaa8181ee893c6dfbe54299de961d508e53a3c', text: () => import('./assets-chunks/dashboard_index_html.mjs').then(m => m.default)},
     'styles-DZ6UBGXD.css': {size: 231612, hash: 'B2Fy9V+bfZo', text: () => import('./assets-chunks/styles-DZ6UBGXD_css.mjs').then(m => m.default)}
   },
 };
