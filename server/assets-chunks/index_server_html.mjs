@@ -3,7 +3,7 @@ export default `<!doctype html>
 <head>
   <meta charset="utf-8">
   <title>Farmfrontend</title>
-  <base href="/farmfrontend/">
+  <base href="https://dhanushoas.github.io/farmfrontend/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 <link rel="stylesheet" href="styles-DZ6UBGXD.css"></head>

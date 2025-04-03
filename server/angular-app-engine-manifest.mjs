@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/farmfrontend',
+  basePath: 'https://dhanushoas.github.io/farmfrontend',
   supportedLocales: {
   "en-US": ""
 },
