@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/farmfrontend": {},
+    "/farmfrontend/dashboard": {},
+    "/farmfrontend/settings": {},
+    "/farmfrontend/signin": {},
+    "/farmfrontend/signup": {}
+  }
+}
