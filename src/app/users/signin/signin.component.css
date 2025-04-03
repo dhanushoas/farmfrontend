@@ -1,0 +1,17 @@
+.container {
+    max-width: 600px;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
